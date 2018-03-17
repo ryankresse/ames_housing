@@ -3,7 +3,7 @@ Predicting housing prices for a [Kaggle competition](https://www.kaggle.com/c/ho
 
 ### Files:
 - explore.ipynb: exploring the data
-- base_lasso.ipynb: preparing the data and fiting a lasso model
+- lasso.ipynb: preparing the data and fiting a lasso model
 - error_analysis.ipynb: examining the errors from the lasso model
 - the rest: creating and fitting various ensembles
 

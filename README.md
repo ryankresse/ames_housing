@@ -7,9 +7,11 @@ My first step was to explore the data, which you can see in EDA.ipynb. Some of m
 - SalePrice, the dependent variable, should be log transformed before fitting a regression model
 - Features related to house quality, square footage, neighborhood and garages tended to have the strongest associations with SalePrice.
 
+#### Building Models
+I built two models, a straightforward Lasso (lasso.ipynb) and and stacking model (stack_to_svr_0.1173.ipynb). As next steps for this project, I should try to build a regression model with fewer parameters, as many of the features are correlated. This would yield more interpretable coefficients that could help answer questions like what potential boost in price homesellers could expect from various remodeling or improvement efforts. 
 
 
-### Files:
+#### Files:
 - EDA.ipynb: exploring the data
 - lasso.ipynb: preparing the data and fiting a lasso model
 - error_analysis.ipynb: examining the errors from the lasso model

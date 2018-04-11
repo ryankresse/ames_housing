@@ -10,12 +10,12 @@ My first step was to explore the data, which you can see in EDA.ipynb. I focused
 
 
 ## Building Models
-I tried three linear models: ridge regression, elastic net and lasso, of which the lasso with an alpha of 0.001 performed best. It shrunk the coefficients for 80% of the features to zero. Below I've plotted the top 20 features by absolute value of their coefficients. MSZoning_C(all) is the largest, but it's a bit of an odd feature because it corresponds to properties with commercial zoning, and there are very few them in the dataset.
+I tried three linear models: ridge regression, elastic net and lasso, of which the lasso with an alpha of 0.001 performed best. It shrunk the coefficients for 80% of the features to zero. Below I've plotted the top 20 features by absolute value of their coefficients. MSZoning_C(all) is the largest, but it's a bit of an odd feature because it corresponds to properties with commercial zoning, and there are very few of them in the dataset.
 
 ![Lasso Coefficients](https://raw.githubusercontent.com/ryankresse/ames_housing/master/imgs/lasso_coef.png)
 
 
-I also built a stacking model (stack_to_svr_0.1173.ipynb), which expectedly performed better than just the lasso.
+I also built a stacking model (stack_to_svr_0.1173.ipynb), which performed better than just the lasso.
 
 #### Files:
 - EDA.ipynb: exploring the data
